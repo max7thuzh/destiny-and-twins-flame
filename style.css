@@ -51,12 +51,12 @@ hr {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  background-color: gray;
+  background-color: tomato;
   transition: background-color 0.2s linear;
 }
 
 .button:hover {
-  background-color: tomato;
+  background-color: red;
 }
 
 /* MEDIA */
