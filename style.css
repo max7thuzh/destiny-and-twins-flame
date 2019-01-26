@@ -35,29 +35,34 @@ hr {
   margin: 2rem 0;
 }
 
-button {
-  display: block;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.5rem;
-  border-style: none;
-  cursor: pointer;
+.title {
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 10rem;
+  height: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: gray;
   transition: background-color 0.2s linear;
 }
 
-button:hover {
+.button:hover {
   background-color: tomato;
-}
-
-.title {
-  margin-bottom: 2rem;
 }
 
 /* MEDIA */
 
 @media (max-width: 768px) {
   .container {
-    width: 98%;
+    width: 96%;
   }
 }
